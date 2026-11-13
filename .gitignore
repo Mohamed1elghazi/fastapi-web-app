@@ -1,0 +1,53 @@
+# --- Lokale Datenbanken (sehr wichtig für dein Projekt!) ---
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
+# --- Python Cache & kompilierte Dateien ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Virtuelle Umgebungen (falls du später eine erstellst) ---
+.venv/
+venv/
+env/
+ENV/
+.Python
+
+# --- Umgebungsvariablen & Geheimnisse (z. B. API-Keys, Passwörter) ---
+.env
+.env.*
+*.pem
+*.key
+
+# --- VS Code & Editor-Einstellungen ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Windows Systemdateien ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Logs & temporäre Dateien ---
+*.log
+*.tmp
+.DS_Store
+
+# --- Paketmanager & Build-Ordner ---
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+nginx-1.30.6/
+*.exe
+response_*.json
